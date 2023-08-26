@@ -1,7 +1,42 @@
 
 body {
-    background-color: #5bc2f4;
+    background-color: white;
 }
+
+.topbar {
+    width: 100%;
+    position: relative;
+    height: 70px;
+    overflow: hidden;
+    box-sizing: inherit;
+    background-color: #2fa2ee;
+}
+
+.home-navbar {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+ }
+
+.link-box {
+    float: left;
+    font-size: 1.5rem;
+    margin: 20px;
+    
+}
+
+.link-item {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.link-item:hover {
+    background-color: #FFD21F;
+}
+
 
 .header {
     display: flex;
@@ -9,19 +44,7 @@ body {
     align-items: center;
 }
 
-.link-box {
-    background-color: #ffec70;
-    height: auto;
-    font-size: 2rem;
-    padding-left: 150px;
-    padding-right: 150px;
-}
 
-.home-navbar {
-    display: flex;
-    justify-content: center;
-    background-color: #ffec70;
-}
 
 .welcome-section {
     
