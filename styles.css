@@ -1,0 +1,28 @@
+
+body {
+    background-color: #5bc2f4;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.link-box {
+    background-color: #ffec70;
+    height: auto;
+    font-size: 2rem;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.home-navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #ffec70;
+}
+
+.welcome-section {
+    
+}
