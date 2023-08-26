@@ -1,0 +1,22 @@
+/*Creators: Hameez Iqbal, Sindi Gurakuqi, Kyle Teopiz, ALysha Cezette-Thompson
+Date: Friday, August 25, 2023*/
+
+
+/*this applies CSS to the body of the HTML*/
+body{
+    background-color:rgb(219, 248, 254);
+    font-family: Aptos Narrow;
+}
+  
+
+  /* this applies CSS to the title class*/
+.title{
+  text-align: center;
+  font-family: ADLaM Display;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
