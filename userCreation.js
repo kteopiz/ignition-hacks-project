@@ -419,12 +419,7 @@ profileButton.addEventListener("click", function handleClick() {
     const timePreference = document.getElementById("timePreference").value;
     const location = document.getElementById("location").value;
 
-
-
     addPerson(fname, lname, age, gender, description, read, videoGames, artistic, parties, campus, showGenre, musicGenre, socialBattery, timePreference, location);
-    
-  
-    
     
 });
 

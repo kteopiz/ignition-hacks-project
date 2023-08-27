@@ -17,24 +17,30 @@ createProfileButton.addEventListener("click", () => {
   const socialBattery = document.getElementById("socialBattery").value;
   const timePreference = document.getElementById("timePreference").value;
   const location = document.getElementById("location").value;
-
-  const profileHTML = `
+const profileHTML = `
     <h2>${fname} ${lname}</h2> 
     <p>${age}, ${gender}</p>
-    <p>Tell Me About Yourself: ${description}</p>
-    <p>Reading Habits: ${read}</p>
-    <p>Gaming Habits:  ${videoGames}</p>
-    <p>Artsy: ${artistic}</p>
-    <p>Party-Goer: ${parties}</p>
-    <p>Involvement in Campus Events: ${campus}</p>
-    <p>Favourite TV Show Genre: ${showGenre}</p>
-    <p>Favourite Music Genre: ${musicGenre}</p>
-    <p>Personality: ${socialBattery}</p>
-    <p>Early Bird or Night Owl: ${timePreference}</p>
-    <p>Favourite Campus Locations: ${location}</p>
-
-  `;
+    <p>${description}</p>
+    <p>read? ${read}</p>
+    <p>video games? ${videoGames}</p>
+    <p>artsy? ${artistic}</p>
+    <p>party-goer? ${parties}</p>
+    <p>attending campus events? ${campus}</p>
+    <p>favourite tv show genre: ${showGenre}</p>
+    <p>favourite music genre: ${musicGenre}</p>
+    <p>social battery: ${socialBattery}</p>
+    <p>time preferences: ${timePreference}</p>
+    <p>favourite location to go to: ${location}</p>
+    <button id="profileButton" class="profile-button">Find Match!</button>
+  `
+  ;
 
   profileDisplay.innerHTML = profileHTML;
   profileDisplay.style.display = "block";
+
+  const profileButton = document.getElementById("profileButton");
+  profileButton.addEventListener("click", () => {
+    alert("Match Found: Harry Potter \n You both often play video games, read rarely, and are night owls!");
+    // Add your desired action for the button here
+  });
 });
