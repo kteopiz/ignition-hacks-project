@@ -1,0 +1,78 @@
+
+
+.profile-form {
+    background-color: #d7efff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-form label,
+  .profile-form input,
+  .profile-form select,
+  .profile-form textarea,
+  .profile-form button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .profile-display {
+    display: none;
+    text-align: center;
+    padding: 20px;
+    background-color: #76C2F4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+
+.logo {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    height: 100px;
+  }
+  
+  .logo img {
+    width: 110px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  h1, h3, h4, h5, h6 {
+    font-family: "Arial", sans-serif;
+    color: #76C2F4;
+  }
+  h2{
+    font-family: "Arial", sans-serif;
+    color: hsl(0, 0%, 100%);
+  }
+  
+  p {
+    font-family: "Arial", sans-serif;
+    color: hsl(0, 0%, 100%);
+
+  }
+  
+  /* ... other styles ... */
+  .input-container {
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  .input-picture {
+    position: absolute;
+    top: 250%;
+    right: 40%;
+    transform: translateY(-50%);
+    width: 190px; /* Adjust the size as needed */
+    height: auto;
+  } 
+
+  
