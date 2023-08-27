@@ -1,6 +1,16 @@
 
 body {
-    background-color: white;
+    background-color: #d7efff;
+}
+
+.font {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-title {
+    box-sizing: border-box;
+    background-color: #76c2f4;
+    border: #2fa2ee 2px solid;
 }
 
 .topbar {
@@ -34,7 +44,7 @@ body {
 }
 
 .link-item:hover {
-    background-color: #FFD21F;
+    background-color: #ffe370;
 }
 
 
@@ -44,8 +54,37 @@ body {
     align-items: center;
 }
 
-
-
-.welcome-section {
-    
+.welcome-section-grid {
+    position: relative;
+    text-align: center;
 }
+
+.welcome-section-image-display {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-section-image {
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    width: 300px;
+}
+
+.profile-section {
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column {
+float: left;
+width: 50%;
+}
+
