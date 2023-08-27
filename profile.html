@@ -4,57 +4,174 @@ Date: Friday, August 25, 2023
  * 
  -->
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="profile.css">
-  <title>Dating App Profile</title>
-  <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="profile.css">
-</head>
-<body>
-  <header>
-    <h1>Your Profile</h1>
-  </header>
-  <div class="profile">
-    <div class="profile-form">
-      <div class="input-container">
-      <label for="name">Name:</label>
-      <input type="text" id="name" placeholder="Your Name">
-        <img src="images/3peoples.png" alt="User Icon" class="input-picture">
-        </div>
-      
-      <label for="age">Age:</label>
-      <input type="number" id="age" placeholder="Your Age">
-      
-      <label for="gender">Gender:</label>
-      <select id="gender">
-        <option value="male">Male</option>
-        <option value="female">Female</option>
-        <option value="other">Other</option>
-      </select>
-      
-      <label for="description">Description:</label>
-      <textarea id="description" placeholder="Tell us about yourself"></textarea>
-      
-      <button id="createProfile">Create Profile</button>
-    </div>
-    <div class="profile-display" id="profileDisplay">
-      <!-- Profile information will be displayed here -->
-    </div>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="profile.css">
+   <link rel="stylesheet" href="homepage.css">
+   <title>Dating App Profile</title>
+   <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+  <div class="topbar">
+    <img style="position: relative;  float: left;" src="images/METMateLogo.png" height="70px" width="90px">
+    <ul class="home-navbar">
+        <li class="link-box font"><a class="link-item" href="homepage.html" > Home </a></li> 
+        <li class="link-box font"><a class="link-item" href="meeting-locations.html" > Meeting Locations </a> </li>
+        <li class="link-box font"><a class="link-item" href="" > Contact Us </a></li>
+        <li class="link-box font"><a class="link-item" href="" > About Us </a></li>
+        <li class="font" style="float:right; font-size:1.5rem; margin: 20px;"> <a class="link-item active" href="profile.html"> Profile </a> </li>
+    </ul>
   </div>
-  <script src="script.js"></script>
-<!-- ... previous HTML content ... -->
-<body>
-    <header>
-      <div class="logo">
-        <img src="images/METMateLogo.png" alt="Dating App Logo">
-      </div>
-    </header>
-    <!-- ... rest of the HTML ... -->
-</body>
-</html>
+   <header>
+     <h1>Your Profile</h1>
+   </header>
+   <div class="profile">
+     <div class="profile-form">
+       <div class="input-container">
+       <label for="name">Name:</label>
+       <input type="text" id="name" placeholder="Your Name">
+         <img src="images/betterfriends.png" alt="User Icon" class="input-picture">
+ 
+         </div>
+       
+       <label for="age">Age:</label>
+       <input type="number" id="age" placeholder="Your Age">
+       
+       <label for="gender">Gender: </label>
+       <select id="gender">
+         <option value="male">Male</option>
+         <option value="female">Female</option>
+         <option value="other">Other</option>
+       </select>
+       
+       <label for="description">Description: </label>
+       <textarea id="description" placeholder="Tell us about yourself"></textarea>
+       
+       <div class="input-container">
+         <label for="read" class="input-label">How often do you read? </label>
+         <select id="read">
+           <option value="never">never</option>
+           <option value="rarely">rarely</option>
+           <option value="sometimes">sometimes</option>
+           <option value="often">often</option>
+           <option value="always">always</option>
+         </select>
+       </div>
+ 
+       <div class="input-container">
+         <label for="videoGames" class="input-label">How often do you play video games?</label>
+         <select id="videoGames">
+           <option value="never">never</option>
+           <option value="rarely">rarely</option>
+           <option value="sometimes">sometimes</option>
+           <option value="often">often</option>
+           <option value="always">always</option>
+         </select>
+       </div>
+ 
+       <div class="input-container">
+         <label for="artistic" class="input-label">How often do you create your own arts and crafts projects?</label>
+         <select id="artistic">
+           <option value="never">never</option>
+           <option value="rarely">rarely</option>
+           <option value="sometimes">sometimes</option>
+           <option value="often">often</option>
+           <option value="always">always</option>
+         </select>
+       </div>
+ 
+       <div class="input-container">
+         <label for="parties" class="input-label">How often do you attend parties?</label>
+         <select id="parties">
+           <option value="never">never</option>
+           <option value="rarely">rarely</option>
+           <option value="sometimes">sometimes</option>
+           <option value="often">often</option>
+           <option value="always">always</option>
+         </select>
+       </div>
+ 
+       <div class="input-container">
+         <label for="campus" class="input-label">How often do you attend on campus events?</label>
+         <select id="campus">
+           <option value="never">never</option>
+           <option value="rarely">rarely</option>
+           <option value="sometimes">sometimes</option>
+           <option value="often">often</option>
+           <option value="always">always</option>
+         </select>
+       </div>
+ 
+       <div class="input-container">
+         <label for="showGenre" class="input-label">What is your favourite show genre?</label>
+         <select id="showGenre">
+           <option value="drama">drama</option>
+           <option value="reality">reality</option>
+           <option value="comedy">comedy</option>
+           <option value="animation">animation</option>
+           <option value="action/adventure">action/adventure</option>
+         </select>
+       </div>
+ 
+ 
+       <div class="input-container">
+         <label for="musicGenre" class="input-label">What is your favourite music genre?</label>
+         <select id="musicGenre">
+           <option value="pop">pop</option>
+           <option value="rap/hip-hop">rap/hip-hop</option>
+           <option value="classical">classical</option>
+           <option value="rock">rock</option>
+           <option value="alternative">alternative</option>
+         </select>
+       </div>
+ 
+       <div class="input-container">
+         <label for="socialBattery" class="input-label">Do you consider yourself as...</label>
+         <select id="socialBattery">
+           <option value="introverted">introverted</option>
+           <option value="ambivert">ambivert</option>
+           <option value="extravert">extravert</option>
+         </select>
+       </div>
+ 
+       <div class="input-container">
+         <label for="timePreference" class="input-label">Do you consider yourself as...</label>
+         <select id="timePreference">
+           <option value="a morning bird, I would rather meet earlier in the day">a morning bird, I would rather meet earlier in the day</option>
+           <option value="a night owl, I would rather meet later in the day">a night owl, I would rather meet later in the day</option>
+           <option value="I do not mind either">I do not mind either</option>
+         </select>
+       </div>
+       
+       <div class="input-container">
+         <label for="location" class="input-label">Where would you like to meet?</label>
+         <select id="location">
+           <option value="Gould Street">Gould Street</option>
+           <option value="Student Campus Centre (SCC)">Student Campus Centre (SCC)</option>
+           <option value="Student Living Centre (SLC)">Student Living Centre (SLC)</option>
+           <option value="Campus Events and Activities">Campus Events and Activities</option>
+           <option value="Study Groups and Collaborative Spaces">Study Groups and Collaborative Spaces</option>
+           <option value="Kerr Hall North">Kerr Hall North</option>
+         </select>
+       </div>
+ 
+ 
+       
+ 
+ 
+       <button id="createProfile">Create Profile</button>
+     </div>
+     <div class="profile-display" id="profileDisplay">
+       <!-- Profile information will be displayed here -->
+     </div>
+   </div>
+   <script src="script.js"></script>
+ 
+  
+ </html>
   
 
